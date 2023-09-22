@@ -31,6 +31,19 @@ const team = [
   }
 ];
 
+const cards = document.querySelector(".row");
 
-		
+for(let member of team){
+  cards.innerHTML += `<div class="col-12 col-xl-4 my-3">
+                        <div class="card my_card">
+                          <img src="img/${member.img}"         
+                          alt="${member.name}">
+                          <div class="card-body text-center">
+                            <h5 class="card-title">${member.name}</h5>
+                            <p class="card-text">${member.role}</p>
+                          </div>
+                        </div>
+                      </div>`;
+  }
+
 	

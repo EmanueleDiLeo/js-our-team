@@ -12,3 +12,4 @@ Organizzare i singoli membri in card/schede
 ## Svolgimento
 
 1. creare l'array di oggetti
+1. creo un for of del team cove insersco gli oggetti
